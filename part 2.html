@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href='style part 2.css'>
+</head>
+<body>
+    <form action="">
+<ul>
+    <li>Общая информация</li>
+    <ul>
+        <li><input type="text" required placeholder="Фамилия" maxlength="20"></li>
+        <li><input type="text" required placeholder="Имя" maxlength="20"></li>
+        <li><input type="text" placeholder="Отчество" maxlength="20"></li>
+        <li><input type="date" placeholder=""></li> 
+        <li><label for="pol">Пол</label>
+        <select name="pol" id="pol">
+            <option value="">Мужской</option>
+            <option value="1">Женский</option>
+        </select></li>
+        <li><input type="file" accept="image/png image/jpeg" placeholder="Фото"></li>
+        <li><input type="tel" required placeholder="Телефон" maxlength="13"></li>
+        <li><input type="email" placeholder="Ваш e-mail"></li>
+        <li><input type="text" placeholder="Ваш адрес"></li>
+        <label for="gorod">Ваш город проживания</label>
+        <select name="gorod" id="gorod">
+            <option value="1">Минск</option>
+            <option value="2">Брест</option>
+            <option value="3">Витебск</option>
+            <option value="4">Гомель</option>
+            <option value="5">Гродно</option>
+            <option value="6">Могилев</option>
+            <option value="7">Бобруйск</option>
+            <option value="8">Барановичи</option>
+            <option value="9">Колодищи</option>
+            <option value="10">Борисов</option>
+        </select>
+        </ul>
+        <li>Образование</li>
+        <ul>
+            <li><input type="text" placeholder="Среднее"></li>
+            <li><input type="text" placeholder="Высшее"></li>
+            <li><input type="text" placeholder="Дополнительно"></li>
+            <li><input type="text" placeholder="Курсы"></li>
+            <li><input type="text" placeholder="Коротко о карьере"></li>
+            <br>
+            <li><input type="text" placeholder="Место работы 1"></li>
+            <li>Начало работы <input type="date"> Окончание работы <input type="date"></li>
+            <br>
+            <li><input type="text" placeholder="Место работы 2"></li>
+            <li>Начало работы <input type="date"> Окончание работы <input type="date"></li>
+            <br>
+            <li><input type="text" placeholder="Место работы 3"></li>
+            <li>Начало работы <input type="date"> Окончание работы <input type="date"></li>
+            <br>
+        </ul>
+        <li><textarea name="samoopis" id="samoopis" placeholder="О себе"></textarea></li>
+    <input type="submit"> <input type="reset">
+</ul>
+    </form>
+</body>
+</html>

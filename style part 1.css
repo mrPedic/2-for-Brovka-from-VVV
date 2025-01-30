@@ -1,0 +1,38 @@
+th.shapka {
+    background-color: aquamarine;
+}
+
+th.nosok {
+    background-color: plum;
+}
+
+table {
+    border: 3px color black;
+}
+
+tr {
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+div.table {
+    position: fixed;
+    background-color: black;
+    margin-right: 1155px;
+}
+
+tr.top th {
+    vertical-align: baseline;
+}
+
+tr.end th {
+    text-align: end;
+}
+
+th.top {
+    text-align: left;
+}
+
+.sec:hover {
+    background-color: powderblue;
+}
